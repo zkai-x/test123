@@ -1,0 +1,288 @@
+
+#sidebar {
+    width: 200px;
+    position: fixed;
+    left: 2%;
+    top: 10%;
+    color: rgb(0, 112, 192);
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+#sidebar ul li a {
+    display: block;
+    padding: 10px;
+    color: rgb(0, 112, 192);
+    text-decoration: none;
+    border-left: 2px solid #ccc;
+}
+#sidebar ul li a.active {
+    border-left: 2px solid rgb(0, 112, 192);
+}
+#content {
+    width: 1500px;
+    margin-top: 80px;
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+#section1{
+    width: 100%;
+}
+#section1 .ser_qkl{
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 50px;
+}
+#section1 .ser_qkl img{
+    width: 450px;
+    margin-left: 30px;
+}
+#section1 .ser_qkl p{
+    font-size: 25px;
+    margin-top: 30px;
+    line-height: 40px;
+    font-weight: 100;
+}
+#section1 .ser_youshi{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+#section1 .ser_youshi h1{
+    margin-bottom: 20px;
+}
+#section1 .ser_youshi .list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#section1 .ser_youshi .list .item{
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section1 .ser_youshi .list .item img{
+    width: 150px;
+}
+#section1 .ser_youshi .list .item p{
+    color: #000;
+    font-size: 20px;
+    margin: 10px 0;
+}
+#section1 .ser_youshi .list .item span{
+    text-align: left;
+    font-size: 16px;
+}
+#section1 .ser_yingyong{
+    width: 100%;
+    text-align: center;
+}
+#section1 .ser_yingyong>h1{
+    margin-bottom: 30px;
+}
+#section1 .ser_yingyong .list{
+    width: 96%;
+    background: #f3f5f8;
+    box-shadow: inset 8px 8px 20px 0 rgba(55, 99, 170, .11), inset -8px -8px 20px 0 #fff;
+    padding: 40px 20px;
+    display: flex;
+}
+#section1 .ser_yingyong .list .left{
+    width: 200px;
+    margin-right: 20px;
+}
+#section1 .ser_yingyong .list ul {
+    width: 100%;
+}
+#section1 .ser_yingyong .list ul li{
+    width: 180px;
+    padding:15px 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(0deg, #f4f6f9, #f3f5f8);
+    border: 2px solid #fff;
+    box-shadow: 8px 8px 20px 0 rgba(55, 99, 170, .1), -8px -8px 20px 0 #fff;
+    font-weight: 400;
+    color: #495770;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+#section1 .ser_yingyong .list ul li.active{
+    width: 200px;
+    border-right: 0;
+}
+#section1 .ser_yingyong .right>div{
+    width: 1100px;
+    padding: 40px;
+    background-image: linear-gradient(0deg, #fff, #f3f5f8);
+    border: 2px solid #fff;
+    box-shadow: 8px 8px 20px 0 rgba(55, 99, 170, .1), -8px -8px 20px 0 #fff;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+#section1 .ser_yingyong .right img{
+    width: 100%;
+}
+#section1 .ser_yingyong .right p{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#section1 .ser_yingyong .right span{
+    font-size: 20px;
+    line-height: 30px;
+}
+#section1 .ser_yingyong .right a{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #0052D9;
+}
+#section2 .gaoduan{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+#section2 .gaoduan>h1{
+    margin-bottom: 20px;
+}
+#section2 .gaoduan>p{
+    line-height: 25px;
+}
+#section2 .gaoduan .list{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#section2 .gaoduan .list .item{
+    width: 18%;
+    border: 1px solid #ccc;
+    padding: 80px 0;
+    background-color: #fff;
+}
+#section2 .gaoduan .list .item img{
+    width: 100px;
+}
+#section2 .gaoduan .list .item p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#section3 .fangan{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+#section3 .fangan>h1{
+    margin-bottom: 20px;
+}
+#section3 .fangan>p{
+    line-height: 25px;
+}
+#section3 .fangan .list{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+#section3 .fangan .list .item{
+    width: 23%;
+    border: 1px solid #ccc;
+}
+#section3 .fangan .list .item img{
+    width: 100%;
+}
+#section3 .fangan .list .item ul{
+    padding: 20px;
+}
+#section3 .fangan .list .item ul li{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+#section3 .fangan .list .item ul li span{
+    font-size: 8px;
+    margin-right: 10px;
+    color: rgb(207, 0, 16);
+}
+#section4 .shengtai{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+#section4 .shengtai>h1{
+    margin-bottom: 20px;
+}
+#section4 .shengtai>p{
+    line-height: 25px;
+}
+#section4 .shengtai .list{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#section4 .shengtai .list .item{
+    width: 28%;
+    border: 1px solid #ccc;
+    padding: 30px;
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 50px;
+}
+#section4 .shengtai .list .item img{
+    width: 100px;
+}
+#section4 .shengtai .list .item p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#section5 .kaifa{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0;
+}
+#section5 .kaifa>h1{
+    margin-bottom: 20px;
+}
+#section5 .kaifa>p{
+    line-height: 25px;
+}
+#section5 .kaifa .list{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#section5 .kaifa .list .item{
+    width: 18%;
+    border: 1px solid #ccc;
+    padding: 80px 0;
+    background-color: #fff;
+}
+#section5 .kaifa .list .item img{
+    width: 100px;
+}
+#section5 .kaifa .list .item p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}

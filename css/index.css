@@ -1,0 +1,236 @@
+.container{
+    width: 1600px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.container .banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* 轮播图 */
+.carousel {
+    position: relative;
+    width: 1200px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .carousel-container {
+	width: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .carousel img {
+    width: 100%;
+	height: 500px;
+    flex-shrink: 0;
+  }
+/* 快讯 */
+.news{
+    width: 340px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.news>p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.news ul{
+    width: 100%;
+}
+.news ul li {
+    width: 100%;
+}
+.news ul li a{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #ccc;
+    color: #000;
+}
+.news ul li a p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.news ul li a p:hover{
+    color: rgb(175, 20, 40);
+}
+.news ul li a p span{
+    color: gray;
+    font-size: 11px;
+    font-weight: normal;
+}
+.news ul li a img{
+    width: 30px;
+    height: 30px;
+}
+.content{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+.content .content-left{
+    width: 1200px;
+    text-align: center;
+    margin-right: 20px;
+}
+.content .content-left>p{
+    width: 40px;
+    margin: 0 auto;
+    height: 4px;
+    background-color: rgb(229, 66, 78);
+    margin-top: 5px;
+}
+.content .content-left .list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:40px 0;
+}
+.content .content-left .list .item{
+    width: 380px;
+    text-align: left;
+    display: flex;
+    margin-bottom: 40px;
+}
+.content .content-left .list .item img{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+.content .content-left .list .item p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.content .content-left .list .item span{
+    color: gray;
+    font-size: 17px;
+}
+.content .content-left .hezuo_list .item{
+    position: relative;
+    width: 340px;
+    height: 220px;
+    box-shadow: 1px 1px 10px #ccc;
+    padding:25px 20px;
+    border-radius: 10px;
+    line-height: 30px
+}
+.content .content-left .hezuo_list .item span{
+    color: #000000A6;
+}
+.content .content-left .hezuo_list .item img{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+}
+.content .content-left .service{
+    width: 1200px;
+    margin-top: 50px;
+}
+.content .content-left .service>img{
+    width: 100%;
+}
+.content .content-left .service .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.content .content-left .service .bottom ul{
+    width: 200px;
+    text-align: left;
+}
+.content .content-left .service .bottom ul p{
+    margin-bottom: 20px;
+}
+.content .content-left .service .bottom ul li{
+    margin-bottom: 10px;
+}
+.content .content-left .service .bottom ul li a{
+    color: rgb(0, 112, 192);
+}
+.content .content-left .service .bottom .hezuo{
+    width: 300px;
+    text-align: left;
+}
+.content .content-left .service .bottom .hezuo p{
+    margin-bottom: 10px;
+}
+.content .content-left .service .bottom .hezuo div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content .content-left .service .bottom .hezuo div img{
+    width: 80px;
+    height: 30px;
+    margin: 10px 0;
+    margin-right: 20px;
+}
+.content .content-left .service .bottom .erweima{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.content .content-left .service .bottom .erweima>div{
+    width: 48%;
+}
+.content .content-left .service .bottom .erweima>div>div{
+    width: 100%;
+    height: 120px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+
+/* 活动 */
+.activity{
+    width: 340px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.activity>p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.activity ul{
+    width: 100%;
+}
+.activity ul li {
+    width: 100%;
+}
+.activity ul li a{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #ccc;
+    color: #000;
+}
+.activity ul li a p{
+    font-size: 15px;
+    font-weight: bold;
+}
+.activity ul li a p:hover{
+    color: rgb(175, 20, 40);
+}
+.activity ul li a p span{
+    color: gray;
+    font-size: 11px;
+    font-weight: normal;
+}
+.activity ul li a img{
+    width: 30px;
+    height: 30px;
+}
