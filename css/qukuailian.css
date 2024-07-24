@@ -13,12 +13,6 @@ a, span{
     color: inherit;
     font-size: inherit;
 }
-ul, li{
-    list-style: none;
-}
-li{
-    display: list-item;
-}
 
 .banner{
     width: 100%;
@@ -96,6 +90,7 @@ li{
     height: 100vh;
     display: flex;
     padding-left: 20px;
+    margin-top: 30px;
 }
 .vertical-bar {
     height: 90%; 
@@ -115,11 +110,11 @@ li{
     transition: top 0.3s;
 }
 .nav ul{
-    line-height: 40px;
+    line-height: 30px;
     cursor: pointer;
 }
 .dw li{
-    font-size: 17px;
+    font-size: 13px;
 }
 .nav-fixed {
     position: fixed;
@@ -133,7 +128,7 @@ li{
 }
 
 .app .container{
-    width: 75%;
+    width: 1200px;
 }
 .container .item1{
     width: 100%;
@@ -183,7 +178,7 @@ li{
     font-size: 18px;
 }
 .item1 .list{
-    width: 1200px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
 }

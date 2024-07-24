@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>服务</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
     <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -27,20 +28,35 @@
             </nav>
         </div>
     </header>
-    <div class="container">
-        <div id="sidebar">
-            <ul>
-                <li><a class="active" href="#section1">区块链解决方案</a></li>
-                <li><a href="#section2">高端网站建设</a></li>
-                <li><a href="#section3">UI/VI设计方案</a></li>
-                <li><a href="#section4">微信小程序开发</a></li>
-                <li><a href="#section5">APP定制开发</a></li>
-                <li><a href="#section6">SEO搜索优化</a></li>
+    <br><br><br>
+    <div class="banner">
+    </div>
+    <div class="app">
+        <div class="banner">
+            <p class="title">什么是区块链？</p> 
+            <div class="btn">
+                <a href="#" class="btn1"><p>深入了解IBM的区块俩解决方案</p><img src="./images/you.png" alt=""></a>
+                <a href="#" class="btn2"><p>订阅可持续发展更新</p><img src="./images/you2.png" alt=""></a>
+                <a href="#" class="btn3" style="display: none;"><p>订阅可持续发展更新</p><img src="./images/you.png" alt=""></a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="vertical-bar">
+                <div class="indicator"></div>
+            </div>
+            <ul class="dw">
+                <li>区块链解决方案</li>
+                <li>高端网站建设</li>
+                <li>UI/VI设计方案</li>
+                <li>微信小程序开发</li>
+                <li>APP定制开发</li>
+                <li>SEO搜索优化</li>
             </ul>
         </div>
-        <div id="content">
+        <div id="content" class="container">
             <!-- 区块链解决方案 -->
             <div id="section1" class="section">
+                <p class="bt">区块链解决方案</p>
                 <!-- 币天地区块链 -->
                 <div class="ser_qkl">
                     <div class="left">
@@ -135,7 +151,8 @@
                  </div>
             </div>
             <!-- 高端网络建设 -->
-            <div id="section2" class="section" style="height: 80vh;">
+            <div id="section2" class="section">
+                <p class="bt">高端网站建设</p>
                 <div class="gaoduan">
                     <h1>赋能品牌线上影响力</h1>
                     <p>币天地 <span>提供线上web品牌网站、移动web业务型产品开发解决方案，利用成熟的技术解决方案帮助企业在互联网时代做好网站建设，扩大品牌<br>影响力，抢占新流量</span></p>
@@ -164,7 +181,8 @@
                 </div>
             </div>
             <!-- UI/VI设计方案 -->
-            <div id="section3" class="section" style="height: 80vh;">
+            <div id="section3" class="section">
+                <p class="bt">UI/VI设计方案</p>
                 <div class="fangan">
                     <h1>品牌设计解决方案</h1>
                     <p>塑造品牌识别体系，赋能品牌商业价值</p>
@@ -213,7 +231,8 @@
                 </div>
             </div>
             <!-- 微信小程序开发 -->
-            <div id="section4" class="section" style="height: 80vh;">
+            <div id="section4" class="section">
+                <p class="bt">微信小程序开发</p>
                 <div class="shengtai">
                     <h1>助力企业抢占微信社交生态</h1>
                     <p>币天地 根据企业自身业务特性，分析潜在用户人群画像，并集合小程序生态特点，帮助企业打造具备良好交互体验、社交互动性质的小程序<br>产品。云伙伴甚于多年小程序产品开发经验，已成功帮助数百家企业完成系统上线</p>
@@ -246,7 +265,8 @@
                 </div>
             </div>
             <!-- APP定制开发 -->
-            <div id="section5" class="section" style="height: 80vh;">
+            <div id="section5" class="section">
+                <p class="bt">APP定制开发</p>
                 <div class="kaifa">
                     <h1>帮助企业搭建app生态</h1>
                     <p>币天地 深度分析企业业务需求，为合作伙伴量身定制app开发方案。利用成熟的开发经验打造高并发应用系统。实现app产品策划至系统上线维<br>护的全周期服务</p>
@@ -275,11 +295,108 @@
                 </div>
             </div>
             <!-- SEO搜索优化 -->
-            <div id="section6" class="section" style="height: 80vh;">
-                <img style="width: 100%;" src="./images/ser_fuwu1.png" alt="">
+            <div id="section6" class="section">
+                <p class="bt">SEO搜索优化</p>
+                <div class="fuwu">
+                    <h1>服务内容</h1>
+                    <div class="list">
+                        <div class="item">
+                            <div class="left">
+                                <h2>网站SEO基础优化</h2>
+                                <ul>
+                                    <li class="active">
+                                        <p>网站历史排查</p>
+                                        <span>全面排查目标站点和域名历史背景，基于历史权重表现，确定下一阶段的优化策略。</span>
+                                    </li>
+                                    <li>
+                                        <p>站点架构分析</p>
+                                        <span>围绕页面HTML，和部分js代码全面排查如外部调用模块导致源码无法抓取内容、内链架构用dom绑定事件操作等问题。</span>
+                                    </li>
+                                    <li>
+                                        <p>标签代码标准优化</p>
+                                        <span>围绕SEO关键词相关内容，做TDK、H1、img(alt属性)、a(nofollow)等标签及性的规范优化。</span>
+                                    </li>
+                                    <li>
+                                        <p>内容相关度优化</p>
+                                        <span>落地页分析，基于流量词，拓展落地页或对相关落地页，从搜索引警抓取，建立索引模型的角度合理提升词频。</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right">
+                                <img src="./images/ser_fuwu_right1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="left">
+                                <h2>网站运营策略</h2>
+                                <ul>
+                                    <li class="active">
+                                        <p>站内更新</p>
+                                        <span>制定稳定的关键词相关内容的产出计划，对更新内容进行SEO优化。</span>
+                                    </li>
+                                    <li>
+                                        <p>外链推广</p>
+                                        <span>选择搜索引擎蜘蛛青睐的站点做外链铺设促进目标网站内页收录。</span>
+                                    </li>
+                                    <li>
+                                        <p>高质友链提权</p>
+                                        <span>选择权重较高的站点，进行友链合作，促进提高重要内页的PageRank值。</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right">
+                                <img src="./images/ser_fuwu_right2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="left">
+                                <h2>搜索引流策略</h2>
+                                <ul>
+                                    <li class="active">
+                                        <p>业务分析</p>
+                                        <span>基于网站业务，分析目标搜索用户，提炼行业核心搜索词。并进行产品类、服务类、疑问类、专业术语类等分类拓展。</span>
+                                    </li>
+                                    <li>
+                                        <p>搜索落地页设计</p>
+                                        <span>基于拓展后的业务相关搜索词，做落地页匹配，制定排名计划。</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right">
+                                <img src="./images/ser_fuwu_right3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="left">
+                                <h2>搜索排名竞争策略</h2>
+                                <ul>
+                                    <li class="active">
+                                        <p>单词多层级落地页排名</p>
+                                        <span>由通用类向细分长尾类自上而下逐层从首页-频道页-详情页部署参与同大类流量词的排名。</span>
+                                    </li>
+                                    <li>
+                                        <p>单页单词根权重集中</p>
+                                        <span>规划好单页的词类数量，保持核心词根的权重集中，提高与竞品同类落地页的竞争力。</span>
+                                    </li>
+                                    <li>
+                                        <p>内链网分配权重</p>
+                                        <span>同一大类词的各层级落地页之前通过相关推荐、面包屑导航、上下篇等内链构建方式进行权重的合理分配。</span>
+                                    </li>
+                                    <li>
+                                        <p>用户体验优化</p>
+                                        <span>通过监测流量进入网站后的浏览数据，迭代内容呈现逻辑，内容维度，引导内页方式等设置，提升用户体验。</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right">
+                                <img src="./images/ser_fuwu_right4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <script src="./js/service.js"></script>
 </body>
-<script src="./js/service.js"></script>
 </html>

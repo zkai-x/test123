@@ -1,35 +1,59 @@
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('#sidebar a').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
+window.addEventListener('scroll', function() {
+    var bannerHeight = document.querySelector('.banner').offsetHeight;
+    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    var nav = document.querySelector('.nav');
+    var cent = document.querySelector('.container');
+    var indicator = document.querySelector('.indicator');
+    var dw = document.querySelector('.dw');
+    var bts = document.querySelectorAll('.bt');
+    var navHeight = 60;
+      var btPositions = [];
+      bts.forEach(function(bt, index) {
+          var btTop = bt.offsetTop - navHeight;
+          btPositions.push(btTop);
+      });
+
+      for (var i = 0; i < btPositions.length; i++) {
+          if (scrollPosition >= btPositions[i] && (i === btPositions.length - 1 || scrollPosition < btPositions[i + 1])) {
+              var liHeight = dw.children[i].offsetHeight;
+              var liTop = dw.children[i].offsetTop;
+              indicator.style.height = liHeight + 'px';
+              indicator.style.top = liTop + 'px';
+              break;
+          }
+      }
+
+      if (scrollPosition > bannerHeight) {
+          nav.classList.add('nav-fixed');
+          cent.classList.add('ll');
+      } else {
+
+          nav.classList.remove('nav-fixed');
+          cent.classList.remove('ll');
+      }
+});
+     
+document.addEventListener("DOMContentLoaded", function() {
+    var navItems = document.querySelectorAll('.dw li');
+    
+    navItems.forEach(function(item) {
+        item.addEventListener('click', function() {
+
+            var targetText = item.textContent.trim();
             
-            document.querySelectorAll('#sidebar ul li a').forEach(item => {
-                item.classList.remove('active');
-            });
-            
-            this.classList.add('active');
-            
-            const targetSection = document.querySelector(this.getAttribute('href'));
-            if (targetSection) {
-                const offsetTop = targetSection.offsetTop - document.getElementById('content').offsetTop;
-                window.scrollTo({
-                    top: offsetTop,
-                    behavior: 'smooth'
-                });
+            var btElements = document.querySelectorAll('.bt');
+
+            for (var i = 0; i < btElements.length; i++) {
+                if (btElements[i].textContent.trim() === targetText) {
+                    window.scrollTo({
+                        top: btElements[i].offsetTop,
+                        behavior: 'smooth'
+                    });
+                    break;
+                }
             }
         });
     });
-});
-var listItems = document.querySelectorAll('.yingyong_nav li');
-
-listItems.forEach(function(item) {
-item.addEventListener('click', function() {
-    listItems.forEach(function(listItem) {
-        listItem.classList.remove('active');
-    });
-
-    this.classList.add('active');
-});
 });
 
 var yingyongbtn1 = document.querySelector('.yingyong_btn1');
