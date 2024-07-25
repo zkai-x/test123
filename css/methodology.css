@@ -9,19 +9,19 @@
     padding: 50px 0;
 }
 .container .product_xq>div{
-    width: 1600px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
 }
 .container .product_xq .left{
-    width: 500px;
+    width: 40%;
     margin-right: 40px;
 }
 .container .product_xq .left img{
     width: 100%;
 }
 .container .product_xq .right{
-    width: 1000px;
+    width: 55%;
     padding: 20px;
 }
 .container .product_xq .right>p{
@@ -61,19 +61,19 @@
     padding: 50px 0;
 }
 .container .product_ghq>div{
-    width: 1600px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
 }
 .container .product_ghq>div .right{
-    width: 500px;
+    width: 40%;
     margin-left: 40px;
 }
 .container .product_ghq>div .right img{
     width: 100%;
 }
 .container .product_ghq>div .left{
-    width: 1000px;
+    width: 55%;
     padding: 20px;
 }
 .container .product_ghq>div .left>p{
@@ -113,19 +113,19 @@
     padding: 50px 0;
 }
 .container .product_sj>div{
-    width: 1600px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
 }
 .container .product_sj .left{
-    width: 500px;
+    width: 40%;
     margin-right: 40px;
 }
 .container .product_sj .left img{
     width: 100%;
 }
 .container .product_sj .right{
-    width: 1000px;
+    width: 55%;
     padding: 20px;
 }
 .container .product_sj .right>p{
@@ -165,7 +165,7 @@
     padding: 50px 0;
 }
 .container .introduce .list{
-    width: 1600px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
