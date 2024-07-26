@@ -1,19 +1,12 @@
 // 轮播图
-const carouselContainer = document.getElementById('carouselContainer');
-  const slides = carouselContainer.children;
-  const totalSlides = slides.length;
-  let currentSlideIndex = 0;
-  const slideWidth = slides[0].clientWidth;
-
-  function slideTo(index) {
-    const transformValue = -(index % totalSlides) * slideWidth;
-    carouselContainer.style.transform = `translateX(${transformValue}px)`;
+var index=0;
+function ChangeImg() {
+  index++;
+  var a=document.getElementsByClassName("img-slide");
+  if(index>=a.length) index=0;
+  for(var i=0;i<a.length;i++){
+      a[i].style.display='none';
   }
-
-  function autoSlide() {
-    currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
-    slideTo(currentSlideIndex);
-    setTimeout(autoSlide, 3000);
-  }
-
-  autoSlide();
+  a[index].style.display='block';
+}
+setInterval(ChangeImg,3000);
