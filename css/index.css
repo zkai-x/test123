@@ -19,6 +19,8 @@
   .carousel-container {
 	width: 100%;
     display: flex;
+    overflow: hidden;
+    border-radius: 10px;
     transition: transform 0.5s ease-in-out;
   }
   .carousel img {
@@ -69,9 +71,10 @@
     width: 30px;
     height: 30px;
 }
-.content{
+.container .content{
     width: 100%;
     display: flex;
+    justify-content: space-between;
     margin-top: 40px;
 }
 .content .content-left{
@@ -197,13 +200,15 @@
 }
 .content-right{
     width: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
 }
 /* 活动 */
 .activity{
     width: 100%;
     background-color: #fff;
     border-radius: 10px;
-    padding: 20px;
 }
 .activity>p{
     font-size: 20px;
