@@ -133,60 +133,63 @@
     right: 0;
 }
 .content .content-left .service{
-    width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 10px;
 }
-.content .content-left .service>img{
-    width: 100%;
+.content .content-left .service img{
+    width: 90%;
+    margin-top: 30px;
 }
-.content .content-left .service .bottom{
+.content .content-left .bottom{
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.content .content-left .service .bottom ul{
+.content .content-left .bottom ul{
     width: 18%;
     text-align: left;
 }
-.content .content-left .service .bottom ul p{
+.content .content-left .bottom ul p{
     margin-bottom: 20px;
 }
-.content .content-left .service .bottom ul li{
+.content .content-left .bottom ul li{
     margin-bottom: 10px;
 }
-.content .content-left .service .bottom ul li a{
+.content .content-left .bottom ul li a{
     color: rgb(0, 112, 192);
 }
-.content .content-left .service .bottom .hezuo{
+.content .content-left .bottom .hezuo{
     width: 300px;
     text-align: left;
 }
-.content .content-left .service .bottom .hezuo p{
+.content .content-left .bottom .hezuo p{
     margin-bottom: 10px;
 }
-.content .content-left .service .bottom .hezuo div{
+.content .content-left .bottom .hezuo div{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-.content .content-left .service .bottom .hezuo div img{
+.content .content-left .bottom .hezuo div img{
     width: 80px;
     height: 30px;
     margin: 10px 0;
     margin-right: 20px;
 }
-.content .content-left .service .bottom .erweima{
+.content .content-left .bottom .erweima{
     width: 300px;
     display: flex;
     justify-content: space-between;
 }
-.content .content-left .service .bottom .erweima>div{
+.content .content-left .bottom .erweima>div{
     width: 48%;
 }
-.content .content-left .service .bottom .erweima>div>div{
+.content .content-left .bottom .erweima>div>div{
     width: 100%;
     height: 120px;
     border: 1px solid #000;
